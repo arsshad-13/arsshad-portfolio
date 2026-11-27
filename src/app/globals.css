@@ -119,3 +119,24 @@
 @media(max-width:760px){.skill-domain-tabs{grid-template-columns:repeat(2,1fr)}.skill-constellation{height:370px}.skill-orbit.orbit-a{width:200px;height:200px}.skill-orbit.orbit-b{width:300px;height:300px}.skill-node{font-size:9px;padding:8px 10px}.node-0{left:5%}.node-1{right:5%}.node-2{right:2%}.node-3{right:5%}.node-4{left:5%}.node-5{left:2%}.node-6{left:35%}.node-7{right:35%}}
 @media(max-width:480px){.skill-constellation{height:330px}.skill-node{font-size:8px;padding:7px 9px}.node-6{left:29%}.node-7{right:29%}.skill-domain-tab{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.skill-orbit{animation:none!important}.filter-chip,.skill-domain-tab,.skill-node{transition:none}}
+
+
+/* Recognition gallery and certification cards */
+.cert-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:8px}
+.cert-card{position:relative;display:flex;align-items:flex-start;gap:13px;min-width:0;padding:15px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.025);transition:border-color .2s,transform .2s,background .2s}
+.cert-card:hover{transform:translateY(-3px);border-color:rgba(167,139,250,.55);background:rgba(124,58,237,.08)}
+.cert-logo{display:grid;place-items:center;flex:0 0 38px;width:38px;height:38px;border:1px solid rgba(167,139,250,.2);border-radius:9px;background:rgba(124,58,237,.1)}
+.cert-logo img{width:22px;height:22px;object-fit:contain}
+.cert-provider{font:9px var(--mono);letter-spacing:.08em;color:#a995ce;text-transform:uppercase}
+.cert-card h4{margin:4px 18px 5px 0;color:#eee7fb;font:600 12px var(--sans);line-height:1.5}
+.cert-card p{margin:0;color:var(--muted);font-size:10px;line-height:1.6}
+.cert-arrow{position:absolute;top:12px;right:13px;color:#bda5f1}
+.recognition-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.recognition-photo{overflow:hidden;margin:0;border:1px solid var(--line);border-radius:9px;background:rgba(255,255,255,.025)}
+.recognition-photo img{display:block;width:100%;height:190px;object-fit:cover;transition:transform .35s}
+.recognition-photo:hover img{transform:scale(1.035)}
+.recognition-photo figcaption{display:flex;flex-direction:column;gap:4px;padding:12px}
+.recognition-photo figcaption strong{font-size:11px;color:#eee7fb}
+.recognition-photo figcaption span{font:9px var(--mono);color:#a995ce}
+@media(max-width:760px){.cert-grid{grid-template-columns:1fr}.recognition-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.recognition-photo img{height:160px}}
+@media(max-width:480px){.recognition-gallery{grid-template-columns:1fr}.recognition-photo img{height:auto;max-height:240px}}
