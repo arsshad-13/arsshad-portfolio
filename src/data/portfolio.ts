@@ -51,13 +51,6 @@ export const achievements = [
   '2nd Prize – Youth Zest Paper Presentation, SREC',
   'Finalist (Institution Level) – Smart India Hackathon 2024',
 ];
-export const recognitionGallery = [
-  { title: 'GCT Paper Presentation', image: '/images/gct-paper.webp', type: 'Event photograph' },
-  { title: 'GCT Project Presentation', image: '/images/gct-project-1.webp', type: 'Event photograph' },
-  { title: 'GCT Project Presentation', image: '/images/gct-project-2.webp', type: 'Event photograph' },
-  { title: 'GCT Certificates & Prizes', image: '/images/gct-prizes.webp', type: 'Award certificates' },
-  { title: 'YouthZest Paper Presentation', image: '/images/youthzest-certificate.webp', type: 'Certificate' },
-];
 
 export const leadership = [
   { role: 'Executive Member', organization: 'CYSIGMA Club, SREC' },
