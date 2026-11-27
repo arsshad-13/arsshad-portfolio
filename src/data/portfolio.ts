@@ -35,8 +35,29 @@ export const skills = [
   { name: 'Security & Testing', items: ['JWT Authentication', 'Authentication', 'Authorization'] },
 ];
 
-export const certifications = ['Amazon Web Services – AWS Certification', 'Cisco – Networking Basics', 'MongoDB University – MongoDB (13 badges)', 'Snowflake – Snow Pro Certification', 'Wadhwani Foundation – Employability Skills: Job Ready (With AI)', 'NPTEL – Software Testing', 'Securiti – PrivacyOps (12 badges)', 'Google GDSC – Cybersecurity'];
-export const achievements = ['1st Prize – Paper Presentation, GCT', '1st Prize – Project Presentation, GCT', '2nd Prize – Youth Zest Paper Presentation, SREC', 'Finalist (Institution Level) – Smart India Hackathon 2024'];
+export const certifications = [
+  { provider: 'Amazon Web Services', name: 'AWS Certification', description: 'Cloud fundamentals and services across the AWS ecosystem.', logo: 'https://cdn.simpleicons.org/amazonaws/FF9900' },
+  { provider: 'Cisco', name: 'Networking Basics', description: 'Core networking concepts, connectivity, and network communication.', logo: 'https://cdn.simpleicons.org/cisco/1BA0D7' },
+  { provider: 'MongoDB University', name: 'MongoDB · 13 badges', description: 'Hands-on learning across MongoDB concepts and database workflows.', logo: 'https://cdn.simpleicons.org/mongodb/47A248' },
+  { provider: 'Snowflake', name: 'Snow Pro Certification', description: 'Snowflake data platform concepts and cloud data fundamentals.', logo: 'https://cdn.simpleicons.org/snowflake/29B5E8' },
+  { provider: 'Wadhwani Foundation', name: 'Employability Skills: Job Ready (With AI)', description: 'Workplace readiness and employability skills with AI.', logo: '' },
+  { provider: 'NPTEL', name: 'Software Testing', description: 'Software testing principles and quality assurance concepts.', logo: '' },
+  { provider: 'Securiti', name: 'PrivacyOps · 12 badges', description: 'Privacy operations and data privacy management concepts.', logo: '' },
+  { provider: 'Google Developer Student Clubs', name: 'Cybersecurity', description: 'Foundational cybersecurity learning and awareness.', logo: 'https://cdn.simpleicons.org/google/4285F4' },
+];
+export const achievements = [
+  '1st Prize – Paper Presentation, GCT',
+  '1st Prize – Project Presentation, GCT',
+  '2nd Prize – Youth Zest Paper Presentation, SREC',
+  'Finalist (Institution Level) – Smart India Hackathon 2024',
+];
+export const recognitionGallery = [
+  { title: 'GCT Paper Presentation', image: '/images/gct-paper.webp', type: 'Event photograph' },
+  { title: 'GCT Project Presentation', image: '/images/gct-project-1.webp', type: 'Event photograph' },
+  { title: 'GCT Project Presentation', image: '/images/gct-project-2.webp', type: 'Event photograph' },
+  { title: 'GCT Certificates & Prizes', image: '/images/gct-prizes.webp', type: 'Award certificates' },
+  { title: 'YouthZest Paper Presentation', image: '/images/youthzest-certificate.webp', type: 'Certificate' },
+];
 
 export const leadership = [
   { role: 'Executive Member', organization: 'CYSIGMA Club, SREC' },
