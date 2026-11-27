@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   keywords: ['Arsshad M', 'Software Engineer', 'Full-Stack Developer', 'AI', 'Machine Learning', 'Portfolio', 'Next.js', 'FastAPI'],
   authors: [{ name: 'Arsshad M', url: 'https://www.linkedin.com/in/arsshad-maheswaran-79a612300' }],
   creator: 'Arsshad M',
+  icons: { icon: '/favicon.svg', shortcut: '/favicon.svg' },
   openGraph: {
     title: 'Arsshad M. | Software Engineer & Full-Stack Developer',
     description: 'Explore Arsshad M’s software engineering, full-stack, AI/ML projects, experience, and research.',
