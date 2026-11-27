@@ -36,14 +36,14 @@ export const skills = [
 ];
 
 export const certifications = [
-  { provider: 'Amazon Web Services', name: 'AWS Certification', description: 'Cloud fundamentals and services across the AWS ecosystem.', logo: 'https://cdn.simpleicons.org/amazonaws/FF9900' },
-  { provider: 'Cisco', name: 'Networking Basics', description: 'Core networking concepts, connectivity, and network communication.', logo: 'https://cdn.simpleicons.org/cisco/1BA0D7' },
-  { provider: 'MongoDB University', name: 'MongoDB · 13 badges', description: 'Hands-on learning across MongoDB concepts and database workflows.', logo: 'https://cdn.simpleicons.org/mongodb/47A248' },
-  { provider: 'Snowflake', name: 'Snow Pro Certification', description: 'Snowflake data platform concepts and cloud data fundamentals.', logo: 'https://cdn.simpleicons.org/snowflake/29B5E8' },
-  { provider: 'Wadhwani Foundation', name: 'Employability Skills: Job Ready (With AI)', description: 'Workplace readiness and employability skills with AI.', logo: '' },
-  { provider: 'NPTEL', name: 'Software Testing', description: 'Software testing principles and quality assurance concepts.', logo: '' },
-  { provider: 'Securiti', name: 'PrivacyOps · 12 badges', description: 'Privacy operations and data privacy management concepts.', logo: '' },
-  { provider: 'Google Developer Student Clubs', name: 'Cybersecurity', description: 'Foundational cybersecurity learning and awareness.', logo: 'https://cdn.simpleicons.org/google/4285F4' },
+  { provider: 'Amazon Web Services', name: 'AWS Certification', description: 'Cloud fundamentals and services across the AWS ecosystem.', logo: 'https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=128' },
+  { provider: 'Cisco', name: 'Networking Basics', description: 'Core networking concepts, connectivity, and network communication.', logo: 'https://www.google.com/s2/favicons?domain=cisco.com&sz=128' },
+  { provider: 'MongoDB University', name: 'MongoDB · 13 badges', description: 'Hands-on learning across MongoDB concepts and database workflows.', logo: 'https://www.google.com/s2/favicons?domain=mongodb.com&sz=128' },
+  { provider: 'Snowflake', name: 'Snow Pro Certification', description: 'Snowflake data platform concepts and cloud data fundamentals.', logo: 'https://www.google.com/s2/favicons?domain=snowflake.com&sz=128' },
+  { provider: 'Wadhwani Foundation', name: 'Employability Skills: Job Ready (With AI)', description: 'Workplace readiness and employability skills with AI.', logo: 'https://www.google.com/s2/favicons?domain=wadhwanifoundation.org&sz=128' },
+  { provider: 'NPTEL', name: 'Software Testing', description: 'Software testing principles and quality assurance concepts.', logo: 'https://www.google.com/s2/favicons?domain=nptel.ac.in&sz=128' },
+  { provider: 'Securiti', name: 'PrivacyOps · 12 badges', description: 'Privacy operations and data privacy management concepts.', logo: 'https://www.google.com/s2/favicons?domain=securiti.ai&sz=128' },
+  { provider: 'Google Developer Student Clubs', name: 'Cybersecurity', description: 'Foundational cybersecurity learning and awareness.', logo: 'https://www.google.com/s2/favicons?domain=developers.google.com&sz=128' },
 ];
 export const achievements = [
   '1st Prize – Paper Presentation, GCT',
